@@ -1,6 +1,6 @@
-# POS tagging techniques for Hindi
+## POS tagging techniques for Hindi
 
-## Plan
+### Plan
 Initially, I will focus on implementing a linear transformation from Hindi word vectors to English word vectors. Then for a given Hindi word, its corresponding word vector embedding can be found in the English vector space after which we can retrieve the most similar English word and its corresponding POS-tag.
 
 The key assumption is that POS-tags do not change by much across languages (we are also using a relatively short lexicon to construct the linear transformation between the word vector spaces of the two languages). The pre-trained word vector embeddings for both the languages are taken from Facebook's [fastText](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)
