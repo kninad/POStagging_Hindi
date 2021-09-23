@@ -11,4 +11,4 @@ Another assumption for going just for a linear transformation is that the word v
 This is probably why I am guessing a linear transformation is not able to correctly able to fit to my Hindi-English word vector data.
 
 ### Report
-The project report is available [here](https://ninception.github.io/docs/NLP585_final.pdf).
+The project report is available in the project root folder as a pdf file.
